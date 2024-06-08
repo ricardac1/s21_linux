@@ -283,3 +283,70 @@ fn + F2
 
 - ``du``
 ![img_40.png](img%2Fimg_40.png)
+
+ - ``du -h``
+
+![img_41.png](img%2Fimg_41.png)
+
+ - ``du /home -h``
+
+![img_42.png](img%2Fimg_42.png)
+
+ - ``du /var -h``
+
+![img_43.png](img%2Fimg_43.png)
+
+ - ``sudo du /var/log -h``
+
+![img_44.png](img%2Fimg_44.png)
+
+ - ``sudo du /var/log/* -h``
+
+![img_45.png](img%2Fimg_46.png)
+
+
+## Part 13
+
+  - ``ncdu ``
+
+![img_46.png](img%2Fimg_46.png)
+
+  - ``ncdu /home``
+
+![img_47.png](img%2Fimg_47.png)
+
+  - ``ncdu /var``
+
+![img_48.png](img%2Fimg_48.png)
+
+ - ``ncdu /var/log``
+
+![img_49.png](img%2Fimg_49.png)
+
+## Part 14
+<b>Последняя авторизация<b>
+
+![img_50.png](img%2Fimg_50.png)
+
+<b>Перезапуск OpenSSH Server<b>
+
+![img_51.png](img%2Fimg_51.png)
+
+
+## Part 15
+
+- ``crontab -e``
+![img_52.png](img%2Fimg_52.png)
+
+- ``grep CRON /var/log/syslog``
+
+![img_53.png](img%2Fimg_53.png)
+
+- ``crontab -l``
+![img_54.png](img%2Fimg_54.png)
+
+Удаление задач:
+- ``crontab -r``
+- ``crontab -l``
+
+![img_55.png](img%2Fimg_55.png)
